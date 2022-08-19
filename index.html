@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const name = "Dania";
+        console.log(name);
+        /*/Declara una variable llamada curso, manda a imprimir ambas variables como interpolación de
+        cadena para que dé como resultado algo similar a: Hola, Pepe está practicando Git.*/
+        const curso = "Git";
+        console.log(`Hola ${name} está practicando ${curso}`);
+        /*Coloca una condición que evalúe, si el valor de curso es igual a git o Git o GIT, muestra un mensaje
+        en consola que diga, “Git es muy importante en el desarrollo de software”, si no, el mensaje debe
+        decir: “algo es algo”.*/
+
+        if(curso === "Git"||curso==="git"||curso==="GIT"){
+            console.log(`${curso} es muy importante en el desarrollo de software`);
+        }else{
+            console.log('algo es algo');
+        }
+
+    </script>
+</body>
+</html>
